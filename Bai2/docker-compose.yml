@@ -1,0 +1,12 @@
+services:
+  mysql:
+    image: mysql:8.0 #tự động kéo image sql theo phiên bản quy định
+    restart: always #tự động khởi động lại khi có sự cố
+    container_name: mysql-bai2
+    ports:
+      - "3307:3306" # ánh xạ cổng 3307 trên máy host tới cổng 3306 trong container
+    environment:
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
