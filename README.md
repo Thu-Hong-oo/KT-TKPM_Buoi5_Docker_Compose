@@ -40,11 +40,13 @@
 ### Bài 7: Chạy MongoDB với Docker Compose					
 		Yêu cầu:				
 		Chạy MongoDB và Mongo Express để quản lý.				
+![image](https://github.com/user-attachments/assets/099b06ff-d179-42fe-8298-2056003b9569)
 
 ***
 ### Bài 8: Kết nối nhiều dịch vụ với Docker Compose					
 		Yêu cầu:				
 		Chạy Node.js kết nối với MySQL.				
+![image](https://github.com/useNodejsr-attachments/assets/af3f82c9-412e-4965-aeab-d51439f902ce)
 
 ***
 ### Bài 9: Chạy ứng dụng Python Flask với Docker Compose					
